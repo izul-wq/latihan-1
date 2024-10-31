@@ -1,0 +1,68 @@
+*,
+html {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    min-height: 100vh;
+    position: relative;
+}
+
+.container-judul {
+    background-color: #333;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.h1-judul {
+    color: white;
+    font-size: 40px;
+}
+
+.container-content {
+    width: 70%;
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 50px;
+    box-sizing: border-box;
+    float: left;
+}
+
+.h2-content {
+    font-size: 30px;
+}
+
+.p-content {
+    margin-top: 20px;
+}
+
+.container-sidebar {
+    padding-top: 50px;
+    padding-right: 100px;
+    font: 14px/18px Times New Roman;
+    float: right;
+}
+
+.h3-sidebar {
+    margin: 20px;
+}
+
+.img-sidebar {
+    height: 25%;
+}
+
+.container-footer {
+    background-color: #333;
+    color: blue;
+    padding: 20px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 14px;
+    position:absolute;
+    
+}
